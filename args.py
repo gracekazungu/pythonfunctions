@@ -35,7 +35,7 @@ def concatenate_args(*strings):
 # arguments in keyword arguments  format and concatenates them into a single string
 
 def concatenate_kwargs(numbs):
-    product=""
+    summ=""
     for key,value in words.items():
-        product+=value
-    return product    
+        summ+=value
+    return summ  
