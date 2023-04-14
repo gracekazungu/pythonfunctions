@@ -17,3 +17,15 @@ def multiply(g,h):
 def remainder(i,j):
     answer5=i%j
     return answer5
+
+def sum(*numbers):
+    answer=0
+    for number in numbers:
+        answer+=number
+    return answer
+
+def multiply(*nums):
+    multi=1
+    for num in nums:
+        multi*=num
+    return multi
