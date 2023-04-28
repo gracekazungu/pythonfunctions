@@ -29,3 +29,14 @@ def multiply(*nums):
     for num in nums:
         multi*=num
     return multi
+
+# def remove_dup(*nums):
+#     emptyarr=[]
+#     for num in nums:
+#         if(num not in emptyarr):
+#             emptyarr.append(num)
+def multiply_list(*numbers):
+    result = 1
+    for num in numbers:
+        result *= num
+    return result
