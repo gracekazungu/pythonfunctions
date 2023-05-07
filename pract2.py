@@ -188,7 +188,7 @@ def median_num(nummode):
     p=len(r)
     if p%2==0:
         middleindx=p//2
-        return (r[middleindx-1]+r[middleindx])/2
+        return (p[middleindx-1]+p[middleindx])/2
     else:
         middleindx=p//2
         return r[middleindx]
@@ -301,6 +301,23 @@ def g(fruits):
 def carslist(cars):
     d=sorted(cars)
     return d
+
+# Write a Kotlin program that given a string it returns a string containing
+#  all the characters at even indices.
+def return_even_indices(str1):
+    result=""
+    for i in range(0,len(str1)):
+        if i%2==0:
+            result+=str1[i]
+    return result
+
+def even_indices(str2):
+    result=[]
+    for i in range(0,len(str2)):
+        if i%2==0:
+            result.append(str2[i])
+    return result
+
 
 
    

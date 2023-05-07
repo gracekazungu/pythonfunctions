@@ -72,7 +72,7 @@ def numms(*nummms):
     sortnum=sorted(nummms)
     p=len(sortnum)
     if(p%2==0):
-        middleindx=p//1
+        middleindx=p//2
         return (sortnum[middleindx-1]+sortnum[middleindx])/2
     else:
         middleindx=p//2
@@ -91,7 +91,9 @@ def median(*numbers):
         middle_index = n // 2
         return sorted_numbers[middle_index]
 
-# # Write a function that takes a list of numbers as input and returns the most frequently occurring number in the list.
+# # Write a function that takes a list of numbers as input and returns 
+# the most frequently occurring number in the list.
+
 # def most_frequent(*numbers):
 #     count = Counter(numbers)
 #     return count.most_common(1)[0][0]
