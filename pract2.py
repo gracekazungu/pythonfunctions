@@ -188,7 +188,7 @@ def median_num(nummode):
     p=len(r)
     if p%2==0:
         middleindx=p//2
-        return (p[middleindx-1]+p[middleindx])/2
+        return (r[middleindx-1]+r[middleindx]/2)
     else:
         middleindx=p//2
         return r[middleindx]

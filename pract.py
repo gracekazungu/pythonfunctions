@@ -41,11 +41,11 @@ def is_prime(n):
 # Write a function that takes a list of strings as input 
 # and returns the string with the most characters.
 def Str(*strr):
-    max=0
+    max_len=0
     longest=""
     for i in strr:
-        if len(i)>max:
-            max=len(i)
+        if len(i)>max_len:
+            max_len=len(i)
             longest=i
     return longest
 
@@ -71,7 +71,7 @@ def has_unique_chars(s):
 def numms(*nummms):
     sortnum=sorted(nummms)
     p=len(sortnum)
-    if(p%2==0):
+    if p%2==0:
         middleindx=p//2
         return (sortnum[middleindx-1]+sortnum[middleindx])/2
     else:
